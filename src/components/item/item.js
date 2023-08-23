@@ -17,7 +17,7 @@ const Item = ({ data, addToCart }) => {
                 </div>
                 <div className="flex">
                     <span className="price" style={{ marginRight: 15 }}>
-                        ${price}
+                    ₹{price}
                     </span>
                     <div className="cart" onClick={addToCart}>
                         <img className="cartImg" src="/cart.svg" alt="" />
